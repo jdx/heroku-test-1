@@ -1,5 +1,8 @@
 {
   "name": "foo",
+  "engines": {
+    "node": "0.10.25"
+  },
   "scripts": {
     "start": "node app.js"
   },
