@@ -1,4 +1,5 @@
 {
+  "name": "foo",
   "scripts": {
     "start": "node app.js"
   },
