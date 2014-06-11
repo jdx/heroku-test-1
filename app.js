@@ -2,6 +2,6 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-  res.send('foobar');
+  res.send('node version: ' + process.version);
 });
 app.listen(process.env.PORT || 3000);
